@@ -1,0 +1,396 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+fatal: Not a valid object name HEAD
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Mon Jul  4 19:51:05 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+SOMMELIER_VERSION = 0.20
+# makefile
+CURDIR := /home/leon/Code/ficken/csaf_distribution_for_docs_3
+# makefile (from 'Makefile', line 11)
+SHELL = /bin/bash
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'Makefile', line 49)
+SEMVERPATCH := 1
+# environment
+JOURNAL_STREAM = 7:20862
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 1
+# environment
+DISPLAY_LOW_DENSITY = :1
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+NCURSES_NO_UTF8_ACS = 1
+# environment
+XDG_DATA_DIRS = /home/leon/.local/share:/home/leon/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+XCURSOR_SIZE = 24
+# environment
+_ = /usr/bin/code
+# environment
+MANAGERPID = 154
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-3b975b50-3800-4cef-a99c-409138b89a18.sock
+# environment
+VSCODE_CWD = /home/leon/Code/ficken/csaf_distribution_for_docs_3
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/usr/local/go/bin
+# environment
+XCURSOR_THEME = Adwaita
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GOPATH = /home/leon/go
+# makefile (from 'Makefile', line 47)
+GITDESC := 
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 15654664200e4fcfa1d0b76511fab3b9
+# makefile (from 'Makefile', line 59)
+LDFLAGS = -ldflags "-X github.com/MexHigh/csaf_distribution_for_docs_3/util.SemVersion=$(SEMVER)"
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+SOMMELIER_DRM_DEVICE = /dev/dri/renderD128
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
+SOMMELIER_GLAMOR = 1
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+LD_ARGV0_REL = ../bin/vshd
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/leon/Code/ficken/csaf_distribution_for_docs_3
+# environment
+QT_QPA_PLATFORMTHEME = gtk2
+# default
+.LOADED := 
+# makefile (from 'Makefile', line 53)
+SEMVER := 
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = X-Generic
+# environment
+GOMODCACHE = /home/leon/go/pkg/mod
+# environment
+HOME = /home/leon
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/leon/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = leon
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+NVM_CD_FLAGS = 
+# automatic
++F = $(notdir $+)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from 'Makefile', line 13)
+MKDIR = mkdir -p
+# makefile (from 'Makefile', line 74)
+DISTDIR := csaf_distribution-
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = leon
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = X-Generic
+# environment
+WAYLAND_DISPLAY_LOW_DENSITY = wayland-1
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /home/leon/Code/ficken
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-ff08f1e5-1.67.2-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+NVM_DIR = /home/leon/.config/nvm
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+BROWSER = /usr/bin/garcon-url-handler
+# environment
+NO_AT_BRIDGE = 1
+# environment
+QT_ACCESSIBILITY = 1
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# makefile (from 'Makefile', line 12)
+BUILD = go build
+# automatic
+<F = $(notdir $<)
+# environment
+XDG_CONFIG_HOME = /home/leon/.config
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 64)
+GOARCH = amd64
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+WAYLAND_DISPLAY = wayland-0
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# makefile (from 'Makefile', line 48)
+GITDESCPATCH := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+XCURSOR_SIZE_LOW_DENSITY = 12
+# default
+.RECIPEPREFIX := 
+# environment
+GPG_TTY = /dev/pts/0
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 407
+# variable set hash-table stats:
+# Load=107/1024=10%, Rehash=0, Collisions=17/160=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 49, inode 435567): 15 files, no impossibilities.
+
+# 15 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# makefile (from 'Makefile', line 65)
+build_linux: GOOS = linux
+build_linux:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 69):
+	$(eval BINDIR = bin-$(GOOS)-$(GOARCH)/ )
+	$(MKDIR) $(BINDIR)
+	env GOARCH=$(GOARCH) GOOS=$(GOOS) $(BUILD) -o $(BINDIR) $(LDFLAGS) -v ./cmd/...
+
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 18):
+ 
+	@echo choose a target from: build build_linux build_win mostlyclean
+	@echo prepend \`make BUILDTAG=1\` to checkout the highest git tag before building
+	@echo or set BUILDTAG to a specific tag
+
+.PHONY: build build_linux build_win tag_checked_out mostlyclean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tag_checked_out:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 36):
+	$(if $(strip $(BUILDTAG)),,$(error no git tag found))
+	git checkout -q tags/${BUILDTAG}
+	@echo Don\'t forget that we are in checked out tag $(BUILDTAG) now.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-04 19:41:05
+#  File has been updated.
+#  Successfully updated.
+
+mostlyclean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 89):
+	rm -rf ./bin-*-* dist/
+	@echo Files in \`go env GOCACHE\` remain.
+
+build: build_linux build_win
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+testsemver:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo from \'$(GITDESC)\' transformed to \'$(SEMVER)\'
+
+dist: build_linux build_win
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 76):
+	mkdir -p dist
+	mkdir -p dist/$(DISTDIR)-windows-amd64/bin-windows-amd64
+	cp README.md dist/$(DISTDIR)-windows-amd64
+	cp bin-windows-amd64/csaf_uploader.exe bin-windows-amd64/csaf_checker.exe bin-windows-amd64/csaf_downloader.exe dist/$(DISTDIR)-windows-amd64/bin-windows-amd64/
+	mkdir -p dist/$(DISTDIR)-windows-amd64/docs
+	cp docs/csaf_uploader.md docs/csaf_checker.md docs/csaf_downloader.md dist/$(DISTDIR)-windows-amd64/docs
+	mkdir dist/$(DISTDIR)-gnulinux-amd64
+	cp -r README.md docs bin-linux-amd64 dist/$(DISTDIR)-gnulinux-amd64
+	cd dist/ ; zip -r $(DISTDIR)-windows-amd64.zip $(DISTDIR)-windows-amd64/
+	cd dist/ ; tar -cvmlzf $(DISTDIR)-gnulinux-amd64.tar.gz $(DISTDIR)-gnulinux-amd64/
+
+# makefile (from 'Makefile', line 66)
+build_win: GOOS = windows
+build_win:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/1=0%
+#  recipe to execute (from 'Makefile', line 69):
+	$(eval BINDIR = bin-$(GOOS)-$(GOARCH)/ )
+	$(MKDIR) $(BINDIR)
+	env GOARCH=$(GOARCH) GOOS=$(GOOS) $(BUILD) -o $(BINDIR) $(LDFLAGS) -v ./cmd/...
+
+# files hash-table stats:
+# Load=12/1024=1%, Rehash=0, Collisions=0/40=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 28 / storage = 241 B / avg = 8 B
+# current buf: size = 8162 B / used = 241 B / count = 28 / avg = 8 B
+
+# strcache performance: lookups = 54 / hit rate = 48%
+# hash-table stats:
+# Load=28/8192=0%, Rehash=0, Collisions=1/54=2%
+# Finished Make data base on Mon Jul  4 19:51:05 2022
+
+ 

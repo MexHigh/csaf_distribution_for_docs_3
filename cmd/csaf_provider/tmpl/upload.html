@@ -1,0 +1,51 @@
+<!--
+ This file is Free Software under the MIT License
+ without warranty, see README.md and LICENSES/MIT.txt for details.
+
+ SPDX-License-Identifier: MIT
+
+ SPDX-FileCopyrightText: 2021 German Federal Office for Information Security (BSI) <https://www.bsi.bund.de>
+ Software-Engineering: 2021 Intevation GmbH <https://intevation.de>
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta description="CSAF-Provider - CSAF uploaded">
+    <title>CSAF-Provider - CSAF uploaded</title>
+  </head>
+  <body>
+    <h1>CSAF-Provider - CSAF uploaded</h1>
+    {{ if .Error }}
+    {{ if eq (len .Error) 1 }}
+    <strong>Error: <tt>{{ index .Error 0 }}.</tt></strong>
+    {{ else }}
+    <p>
+    Errors:
+    <ul>
+    {{ range .Error }}
+    <li>{{ . }}</li>
+    {{ end }}
+    </ul>
+    <p>
+    {{ end }}
+    {{ else }}
+    <table>
+      <tr><td>CSAF file:</td><td><tt>{{ .Name }}</tt></td></tr>
+      <tr><td>Release date:</td><td><tt>{{ .ReleaseDate }}</tt></td></tr>
+    </table>
+    {{ if .Warnings }}
+    <p>
+    Warning(s):
+    <ul>
+      {{ range .Warnings }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+    </p>
+    {{ end }}
+    {{ end }}
+    <br>
+    <a href="/cgi-bin/csaf_provider.go/">Back</a>:
+  </body>
+</html>

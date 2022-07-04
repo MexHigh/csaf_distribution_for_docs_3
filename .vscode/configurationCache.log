@@ -1,0 +1,1 @@
+{"buildTargets":["all","build","build_linux","build_win","dist","mostlyclean","tag_checked_out","testsemver"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
